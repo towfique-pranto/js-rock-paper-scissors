@@ -6,11 +6,21 @@ let score = JSON.parse(localStorage.getItem("score")) || {
 
 updateScoreElement();
 
+let isAutoPlay = false;
+let invervalId;
+
 function autoPlay(){
-    setInterval(function(){
+    if (!isAutoPlay){
+    invervalId = setInterval(function(){
         const playerMove = pickMove();
         playGame(playerMove);
     }, 1500);
+    isAutoPlay = true;
+    } else {
+        clearInterval(invervalId);
+        isAutoPlay = false;
+    }
+    
 }
 
 function playGame(playerMove) {
