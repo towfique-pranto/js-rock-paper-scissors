@@ -9,9 +9,10 @@ updateScoreElement();
 let isAutoPlay = false;
 let invervalId;
 
+//const autoPlay = ()=>{};
 function autoPlay(){
     if (!isAutoPlay){
-    invervalId = setInterval(function(){
+    invervalId = setInterval(()=>{
         const playerMove = pickMove();
         playGame(playerMove);
     }, 1500);
