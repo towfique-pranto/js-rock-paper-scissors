@@ -22,7 +22,6 @@ function autoPlay(){
         clearInterval(invervalId);
         isAutoPlay = false;
     }
-    
 }
 
 document.querySelector('.js-rock-button').addEventListener('click',()=>{
