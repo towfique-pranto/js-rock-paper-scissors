@@ -9,7 +9,6 @@ updateScoreElement();
 let isAutoPlay = false;
 let invervalId;
 
-//const autoPlay = ()=>{};
 function autoPlay(){
     if (!isAutoPlay){
         document.querySelector('.js-auto-play-button').innerText = 'Stop Playing';
@@ -61,7 +60,6 @@ document.body.addEventListener('keydown',(event)=>{
         <button class='confirm-yes-button'>Yes</button>
         <button class='confirm-no-button'>No</button></div>`
         document.querySelector('.js-confirmation').innerHTML = confirmBox;
-        //resetScore();
         document.querySelector('.confirm-yes-button').addEventListener('click',()=>{
              resetScore();
              document.querySelector('.js-confirmation').innerHTML = '';
@@ -71,8 +69,6 @@ document.body.addEventListener('keydown',(event)=>{
         });
     }
 });
-
-
 
 function playGame(playerMove) {
     let computerMove = pickMove();
