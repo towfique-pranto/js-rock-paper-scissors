@@ -28,24 +28,8 @@ A fully functional, interactive **Rock Paper Scissors** web application. This pr
 2. **Auto Play:** Click the "Auto Play" button to start an automated game loop (moves every 1.5 seconds).
 3. **Reset:** Use the "Reset Score" button to clear your stats. A confirmation prompt will appear to prevent accidental resets.
 
-## Installation
-
-To run this project locally:
+## How to Run
 
 1. Clone the repository:
-
-```bash
-git clone https://github.com/towfique-pranto/js-rock-paper-scissors.git
-
-```
-
-2. Navigate to the project folder:
-
-```bash
-cd js-rock-paper-scissors
-
-```
-
-3. Open `index.html` in your favorite web browser.
-
----
+   `git clone https://github.com/towfique-pranto/js-todo-list`
+2. Open `index.html` in your browser.
