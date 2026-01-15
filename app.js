@@ -55,7 +55,7 @@ document.body.addEventListener('keydown',(event)=>{
     } else if(event.key==='a'){
         autoPlay();
     } else if(event.key==='Backspace'){
-        let confirmBox = `<div>Are you sure you want to reset the score? 
+        let confirmBox = `<div class="confirm-message">Are you sure you want to reset the score? 
         <button class='confirm-yes-button'>Yes</button>
         <button class='confirm-no-button'>No</button></div>`
         document.querySelector('.js-confirmation').innerHTML = confirmBox;
@@ -114,9 +114,9 @@ function playGame(playerMove) {
 
     document.querySelector(
         ".js-moves"
-    ).innerHTML = `You <img src="images/${playerMove}-emoji.png" alt="" class="move-icon" /> vs
+    ).innerHTML = `<div class="show-move">Your move <img src="images/${playerMove}-emoji.png" alt="" class="move-icon" /> vs
       <img src="images/${computerMove}-emoji.png" alt="" class="move-icon" />
-      Computer`;
+      Computer's move</div>`;
 }
 
 function updateScoreElement() {

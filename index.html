@@ -7,41 +7,43 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <p class="title">Rock Paper Scissors</p>
+    <div>
+      <p class="title">Rock Paper Scissors</p>
 
-    <button class="move-button js-rock-button">
-      <img
-        src="images/rock-emoji.webp"
-        alt="images/rock-emoji.png"
-        class="move-icon-button"
-      />
-    </button>
+      <button class="move-button js-rock-button">
+        <img
+          src="images/rock.png"
+          alt="images/rock-emoji.png"
+          class="move-icon-button"
+        />
+      </button>
 
-    <button class="move-button js-paper-button">
-      <img
-        src="images/paper-emoji.webp"
-        alt="images/paper-emoji.png"
-        class="move-icon-button"
-      />
-    </button>
+      <button class="move-button js-paper-button">
+        <img
+          src="images/paper.png"
+          alt="images/paper-emoji.png"
+          class="move-icon-button"
+        />
+      </button>
 
-    <button class="move-button js-scissors-button">
-      <img
-        src="images/scissors-emoji.webp"
-        alt="images/scissors-emoji.png"
-        class="move-icon-button"
-      />
-    </button>
-    <p class="js-result result"></p>
-    <p class="js-moves"></p>
-    <p class="js-score score"></p>
+      <button class="move-button js-scissors-button">
+        <img
+          src="images/scissors.png"
+          alt="images/scissors-emoji.png"
+          class="move-icon-button"
+        />
+      </button>
+      <p class="js-result result"></p>
+      <p class="js-moves"></p>
+      <p class="js-score score"></p>
 
-    <button class="reset-score js-reset-button">Reset score</button>
+      <div class="bottom-buttons">
+        <button class="reset-score js-reset-button">Reset score</button>
+        <button class="auto-play-button js-auto-play-button">Auto Play</button>
+      </div>
 
-    <button class="auto-play-button js-auto-play-button">Auto Play</button>
-
-    <div class="confirmation js-confirmation"></div>
-
+      <div class="confirmation js-confirmation"></div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
