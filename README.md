@@ -31,5 +31,5 @@ A fully functional, interactive **Rock Paper Scissors** web application. This pr
 ## How to Run
 
 1. Clone the repository:
-   `git clone https://github.com/towfique-pranto/js-todo-list`
+   `git clone https://github.com/towfique-pranto/js-rock-paper-scissors.git`
 2. Open `index.html` in your browser.
