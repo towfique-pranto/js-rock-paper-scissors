@@ -8,11 +8,12 @@ A fully functional, interactive **Rock Paper Scissors** web application. This pr
 - **Persistent Data:** Uses `localStorage` to save your score even after refreshing the page.
 - **Auto Play Mode:** Let the computer play against itself with a single click.
 - **Keyboard Shortcuts:** Play faster using your keyboard:
-- `r`: Rock
-- `p`: Paper
-- `s`: Scissors
-- `a`: Auto Play
-- `Backspace`: Reset Score (with confirmation)
+
+  - `r`: Rock
+  - `p`: Paper
+  - `s`: Scissors
+  - `a`: Auto Play
+  - `Backspace`: Reset Score (with confirmation)
 
 - **Responsive Feedback:** Visual icons for moves and a confirmation dialog for score resets.
 
