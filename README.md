@@ -16,7 +16,7 @@ A fully functional, interactive **Rock Paper Scissors** web application. This pr
 
 - **Responsive Feedback:** Visual icons for moves and a confirmation dialog for score resets.
 
-## Tech Stack
+## Built With
 
 - **HTML5:** Structure of the game.
 - **CSS3:** Styling and layout (flexbox used for buttons).
@@ -26,9 +26,12 @@ A fully functional, interactive **Rock Paper Scissors** web application. This pr
 
 ```text
 ├── images/
-│   ├── rock-emoji.png
 │   ├── paper-emoji.png
-│   └── scissors-emoji.png
+│   ├── paper.png
+│   ├── rock-emoji.png
+│   ├── rock.png
+│   ├── scissors-emoji.png
+│   └── scissors.png
 ├── index.html
 ├── styles.css
 └── app.js
@@ -55,7 +58,7 @@ git clone https://github.com/towfique-pranto/js-rock-paper-scissors.git
 2. Navigate to the project folder:
 
 ```bash
-cd rock-paper-scissors
+cd js-rock-paper-scissors
 
 ```
 
