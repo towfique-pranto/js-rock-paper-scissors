@@ -22,22 +22,6 @@ A fully functional, interactive **Rock Paper Scissors** web application. This pr
 - **CSS3:** Styling and layout (flexbox used for buttons).
 - **JavaScript (ES6+):** Game logic, DOM manipulation, and event listeners.
 
-## Project Structure
-
-```text
-├── images/
-│   ├── paper-emoji.png
-│   ├── paper.png
-│   ├── rock-emoji.png
-│   ├── rock.png
-│   ├── scissors-emoji.png
-│   └── scissors.png
-├── index.html
-├── styles.css
-└── app.js
-
-```
-
 ## How to Play
 
 1. **Manual Play:** Click on the Rock, Paper, or Scissors icons to make a move.
